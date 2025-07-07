@@ -1,0 +1,20 @@
+[package]
+name = "gorbagana_slots"
+version = "0.1.0"
+description = "Gorbagana Slots Game Smart Contract"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "gorbagana_slots"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.25.0"
+anchor-spl = "0.25.0"
