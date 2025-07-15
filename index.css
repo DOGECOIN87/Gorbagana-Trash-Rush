@@ -1,0 +1,263 @@
+/* Gorbagana Slots - Win Animation Styles */
+
+/* Particle Animation Keyframes */
+@keyframes particleFloat {
+  0% {
+    transform: translateY(0px) translateX(0px) scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: translateY(-20px) translateX(10px) scale(1.2);
+    opacity: 0.8;
+  }
+  50% {
+    transform: translateY(-40px) translateX(-15px) scale(0.9);
+    opacity: 0.6;
+  }
+  75% {
+    transform: translateY(-60px) translateX(20px) scale(1.1);
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-80px) translateX(-10px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes particleFade {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Win Flash Animations */
+@keyframes winFlash-small {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes winFlash-medium {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  25% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(1.02);
+  }
+  75% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes winFlash-big {
+  0% {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  20% {
+    opacity: 0.5;
+    transform: scale(1.08);
+  }
+  40% {
+    opacity: 0.3;
+    transform: scale(1.03);
+  }
+  60% {
+    opacity: 0.5;
+    transform: scale(1.08);
+  }
+  80% {
+    opacity: 0.3;
+    transform: scale(1.03);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes winFlash-mega {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  15% {
+    opacity: 0.6;
+    transform: scale(1.12);
+  }
+  30% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+  45% {
+    opacity: 0.6;
+    transform: scale(1.12);
+  }
+  60% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+  75% {
+    opacity: 0.6;
+    transform: scale(1.12);
+  }
+  90% {
+    opacity: 0.3;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+/* Enhanced Symbol Glow Effects */
+@keyframes symbolGlow-mega {
+  0%, 100% {
+    box-shadow: 0 0 15px 5px #fde047;
+  }
+  50% {
+    box-shadow: 0 0 30px 10px #fde047, 0 0 40px 15px rgba(255, 255, 0, 0.5);
+  }
+}
+
+@keyframes symbolGlow-big {
+  0%, 100% {
+    box-shadow: 0 0 15px 4px #60a5fa;
+  }
+  50% {
+    box-shadow: 0 0 25px 8px #60a5fa, 0 0 35px 12px rgba(96, 165, 250, 0.4);
+  }
+}
+
+@keyframes symbolGlow-medium {
+  0%, 100% {
+    box-shadow: 0 0 12px 3px #34d399;
+  }
+  50% {
+    box-shadow: 0 0 20px 6px #34d399, 0 0 30px 10px rgba(52, 211, 153, 0.4);
+  }
+}
+
+/* Text Shimmer Effect */
+@keyframes textShimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+/* Win Text Entrance Animation */
+@keyframes winTextEntrance {
+  0% {
+    transform: scale(0.5) rotate(-10deg);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2) rotate(5deg);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* Coin Rain Effect (for mega wins) */
+@keyframes coinRain {
+  0% {
+    transform: translateY(-100vh) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+/* Pulsing Border Effect for Winning Symbols */
+@keyframes winningBorder {
+  0%, 100% {
+    border-color: #fde047;
+    box-shadow: 0 0 10px #fde047;
+  }
+  50% {
+    border-color: #facc15;
+    box-shadow: 0 0 20px #facc15, 0 0 30px rgba(250, 204, 21, 0.5);
+  }
+}
+
+/* Screen Shake Effect for Big Wins */
+@keyframes screenShake {
+  0%, 100% { transform: translateX(0); }
+  10% { transform: translateX(-2px); }
+  20% { transform: translateX(2px); }
+  30% { transform: translateX(-2px); }
+  40% { transform: translateX(2px); }
+  50% { transform: translateX(-1px); }
+  60% { transform: translateX(1px); }
+  70% { transform: translateX(-1px); }
+  80% { transform: translateX(1px); }
+  90% { transform: translateX(-1px); }
+}
+
+/* Utility Classes for Win Animations */
+.win-text-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.8), transparent);
+  background-size: 200% 100%;
+  animation: textShimmer 2s infinite;
+}
+
+.win-entrance {
+  animation: winTextEntrance 0.8s ease-out;
+}
+
+.screen-shake {
+  animation: screenShake 0.6s ease-in-out;
+}
+
+.coin-rain {
+  animation: coinRain 3s linear infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  @keyframes particleFloat {
+    0% {
+      transform: translateY(0px) translateX(0px) scale(0.8);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-60px) translateX(-8px) scale(0.6);
+      opacity: 0;
+    }
+  }
+}

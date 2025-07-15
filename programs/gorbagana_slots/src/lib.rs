@@ -18,6 +18,9 @@ pub mod gorbagana_slots {
         slots_state.total_spins = 0;
         slots_state.total_payout = 0;
         slots_state.house_edge = 5; // 5% house edge
+        slots_state.max_payout_per_spin = 1000000000; // 1 SOL max initially
+        slots_state.total_pool = 0;
+        slots_state.min_pool_threshold = 100000000; // 0.1 SOL minimum pool
         Ok(())
     }
 
@@ -128,6 +131,9 @@ pub struct SlotsState {
     pub total_spins: u64,
     pub total_payout: u64,
     pub house_edge: u8,
+    pub max_payout_per_spin: u64,
+    pub total_pool: u64,
+    pub min_pool_threshold: u64,
 }
 
 #[event]

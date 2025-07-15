@@ -1,0 +1,108 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <linearGradient id="bg-gradient" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#667eea"/>
+    <stop offset="100%" stop-color="#764ba2"/>
+  </linearGradient>
+  <rect width="800" height="500" fill="url(#bg-gradient)"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="70" fill="rgba(255,255,255,0.95)" filter="blur(5px)"/>
+  <circle cx="50" cy="35" r="20" fill="#8B5CF6" stroke="white" stroke-width="3"/>
+  <text x="85" y="30" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#8B5CF6">Gorbagana Slots Admin</text>
+  <text x="85" y="50" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Professional Casino Management Dashboard</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="70" width="200" height="430" fill="#1E293B"/>
+  <text x="20" y="100" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="white">Navigation</text>
+  <rect x="20" y="110" width="40" height="3" rx="1.5" fill="url(#bg-gradient)"/>
+  
+  <!-- Nav Items -->
+  <rect x="15" y="130" width="170" height="40" rx="8" fill="rgba(139, 92, 246, 0.2)"/>
+  <text x="50" y="155" font-family="Inter, sans-serif" font-size="14" fill="white">Dashboard</text>
+  <text x="25" y="155" font-family="FontAwesome" font-size="14" fill="white">&#xf080;</text>
+  
+  <text x="50" y="205" font-family="Inter, sans-serif" font-size="14" fill="#9CA3AF">Game Config</text>
+  <text x="25" y="205" font-family="FontAwesome" font-size="14" fill="#9CA3AF">&#xf085;</text>
+  
+  <text x="50" y="255" font-family="Inter, sans-serif" font-size="14" fill="#9CA3AF">Jackpots</text>
+  <text x="25" y="255" font-family="FontAwesome" font-size="14" fill="#9CA3AF">&#xf091;</text>
+  
+  <text x="50" y="305" font-family="Inter, sans-serif" font-size="14" fill="#9CA3AF">Analytics</text>
+  <text x="25" y="305" font-family="FontAwesome" font-size="14" fill="#9CA3AF">&#xf201;</text>
+  
+  <text x="50" y="355" font-family="Inter, sans-serif" font-size="14" fill="#9CA3AF">Transactions</text>
+  <text x="25" y="355" font-family="FontAwesome" font-size="14" fill="#9CA3AF">&#xf09d;</text>
+  
+  <text x="50" y="405" font-family="Inter, sans-serif" font-size="14" fill="#9CA3AF">Security</text>
+  <text x="25" y="405" font-family="FontAwesome" font-size="14" fill="#9CA3AF">&#xf023;</text>
+  
+  <!-- Main Content -->
+  <text x="220" y="110" font-family="Inter, sans-serif" font-size="24" font-weight="700" fill="white">Dashboard Overview</text>
+  <text x="220" y="135" font-family="Inter, sans-serif" font-size="14" fill="rgba(255,255,255,0.7)">Monitor your casino performance in real-time</text>
+  
+  <!-- Stat Cards -->
+  <rect x="220" y="160" width="180" height="120" rx="12" fill="rgba(255,255,255,0.95)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="235" y="175" width="40" height="40" rx="8" fill="url(#green-gradient)"/>
+  <text x="245" y="200" font-family="FontAwesome" font-size="20" fill="white">&#xf155;</text>
+  <text x="235" y="235" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Total Revenue</text>
+  <text x="235" y="260" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#111827">$24,567</text>
+  
+  <rect x="420" y="160" width="180" height="120" rx="12" fill="rgba(255,255,255,0.95)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="435" y="175" width="40" height="40" rx="8" fill="url(#blue-gradient)"/>
+  <text x="445" y="200" font-family="FontAwesome" font-size="20" fill="white">&#xf0c0;</text>
+  <text x="435" y="235" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Active Players</text>
+  <text x="435" y="260" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#111827">1,234</text>
+  
+  <rect x="620" y="160" width="160" height="120" rx="12" fill="rgba(255,255,255,0.95)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <rect x="635" y="175" width="40" height="40" rx="8" fill="url(#purple-gradient)"/>
+  <text x="645" y="200" font-family="FontAwesome" font-size="20" fill="white">&#xf2dc;</text>
+  <text x="635" y="235" font-family="Inter, sans-serif" font-size="12" fill="#6B7280">Total Spins</text>
+  <text x="635" y="260" font-family="Inter, sans-serif" font-size="20" font-weight="700" fill="#111827">45,678</text>
+  
+  <!-- Charts -->
+  <rect x="220" y="300" width="270" height="180" rx="12" fill="rgba(255,255,255,0.95)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <text x="240" y="330" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#111827">Revenue Trend</text>
+  
+  <!-- Revenue Chart -->
+  <path d="M240 430 L260 410 L280 390 L300 420 L320 370 L340 390 L360 350 L380 380 L400 360 L420 390 L440 370 L460 400" stroke="#8B5CF6" stroke-width="3" fill="none"/>
+  <circle cx="240" cy="430" r="4" fill="#8B5CF6"/>
+  <circle cx="260" cy="410" r="4" fill="#8B5CF6"/>
+  <circle cx="280" cy="390" r="4" fill="#8B5CF6"/>
+  <circle cx="300" cy="420" r="4" fill="#8B5CF6"/>
+  <circle cx="320" cy="370" r="4" fill="#8B5CF6"/>
+  <circle cx="340" cy="390" r="4" fill="#8B5CF6"/>
+  <circle cx="360" cy="350" r="4" fill="#8B5CF6"/>
+  <circle cx="380" cy="380" r="4" fill="#8B5CF6"/>
+  <circle cx="400" cy="360" r="4" fill="#8B5CF6"/>
+  <circle cx="420" cy="390" r="4" fill="#8B5CF6"/>
+  <circle cx="440" cy="370" r="4" fill="#8B5CF6"/>
+  <circle cx="460" cy="400" r="4" fill="#8B5CF6"/>
+  
+  <!-- Player Chart -->
+  <rect x="510" y="300" width="270" height="180" rx="12" fill="rgba(255,255,255,0.95)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <text x="530" y="330" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#111827">Player Activity</text>
+  
+  <!-- Donut Chart -->
+  <circle cx="645" cy="390" r="60" fill="#F3F4F6"/>
+  <path d="M645 390 L645 330 A60 60 0 0 1 697 420 Z" fill="#10B981"/>
+  <path d="M645 390 L697 420 A60 60 0 0 1 593 420 Z" fill="#F59E0B"/>
+  <path d="M645 390 L593 420 A60 60 0 0 1 645 330 Z" fill="#8B5CF6"/>
+  <circle cx="645" cy="390" r="40" fill="white"/>
+  
+  <!-- Gradients -->
+  <linearGradient id="green-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#10B981"/>
+    <stop offset="100%" stop-color="#059669"/>
+  </linearGradient>
+  
+  <linearGradient id="blue-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#3B82F6"/>
+    <stop offset="100%" stop-color="#1D4ED8"/>
+  </linearGradient>
+  
+  <linearGradient id="purple-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#8B5CF6"/>
+    <stop offset="100%" stop-color="#7C3AED"/>
+  </linearGradient>
+</svg>
