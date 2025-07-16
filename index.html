@@ -579,32 +579,12 @@
         </section>
     </div>
 
-    <!-- Demo Game Container (Hidden Initially) -->
-    <div id="demo-container" style="display: none;">
-        <div class="fixed top-0 left-0 w-full bg-black/90 backdrop-blur-sm z-40 p-4">
-            <div class="flex justify-between items-center">
-                <div class="text-yellow-400 font-bold">🎮 LIVE DEMO - Gorbagana Trash Rush</div>
-                <button onclick="hideDemo()" class="bg-red-600 hover:bg-red-700 px-4 py-2 rounded text-white font-bold">
-                    ← Back to Sale Info
-                </button>
-            </div>
-        </div>
-        <div id="root" class="pt-16"></div>
-    </div>
+    <!-- Demo now redirects to Netlify - no local container needed -->
 
     <script>
         function showDemo() {
-            document.getElementById('landing-page').style.display = 'none';
-            document.getElementById('demo-container').style.display = 'block';
-            
-            // Load the React demo
-            if (!window.demoLoaded) {
-                const script = document.createElement('script');
-                script.type = 'module';
-                script.src = '/index.tsx';
-                document.head.appendChild(script);
-                window.demoLoaded = true;
-            }
+            // Redirect to Netlify demo instead of showing local demo
+            window.open('https://reliable-piroshki-61a389.netlify.app/', '_blank');
         }
 
         function hideDemo() {
